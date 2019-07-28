@@ -50,11 +50,11 @@ d3.json("data/coins.json").then(function(data){
         });
     }
 
-    lineChart1 = new LineChart("#chart-area1", "Technology");
-    lineChart2 = new LineChart("#chart-area2", "Health Care");
-    lineChart3 = new LineChart("#chart-area3", "Energy");
-    lineChart4 = new LineChart("#chart-area4", "Financials");
-    lineChart5 = new LineChart("#chart-area5", "Material");
+    lineChart1 = new LineChart("#chart-area1", "stockA");
+    lineChart2 = new LineChart("#chart-area2", "stockB");
+    lineChart3 = new LineChart("#chart-area3", "stockC");
+    lineChart4 = new LineChart("#chart-area4", "stockD");
+    lineChart5 = new LineChart("#chart-area5", "stockE");
 
 })
 
